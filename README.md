@@ -8,7 +8,7 @@ you can get the simulation environment shown in the figure by running:
 
 ![no_ray](https://github.com/allenthreee/thermal_extrinsic/blob/main/gazebo_simulation/extrinsic.png)
 Click the three quotation marks in the upper right corner again, and search for lidar-> visualize lidar.
-Then click pause in the lower left corner to start (the triangle inside the circle) and you can see the lidar ray.
+Then click pause in the lower left corner to start (the triangle inside the circle), and you can see the lidar ray.
 ![ray](https://github.com/allenthreee/thermal_extrinsic/blob/main/gazebo_simulation/extrinsic2.png)
 
 you can get the simulation envrionment shown in the figure by running:
