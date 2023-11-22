@@ -16,3 +16,8 @@ Then you can follow this [tutorial](https://gazebosim.org/docs/citadel/ros_integ
 
 Here is [my own tutorial](https://zhuanlan.zhihu.com/p/657387526)
 
+#ply/pcd convert
+
+pcl_ply2pcd http://manpages.ubuntu.com/manpages/focal/man1/pcl_ply2pcd.1.html
+pcl_pcd2ply http://manpages.ubuntu.com/manpages/focal/man1/pcl_pcd2ply.1.html
+
