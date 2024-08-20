@@ -16,6 +16,13 @@ Then you can follow this [tutorial](https://gazebosim.org/docs/citadel/ros_integ
 
 Here is [my own tutorial](https://zhuanlan.zhihu.com/p/657387526)
 
+## moving car
+```ign gazebo wheel_robot.sdf```
+then you can move the car by 方向键, then you can drive the car as shown in the video below:
+
+https://github.com/user-attachments/assets/f181073a-6c24-4a30-96be-618379d20d8e
+
+
 # ply/pcd convert
 
 pcl_ply2pcd http://manpages.ubuntu.com/manpages/focal/man1/pcl_ply2pcd.1.html
