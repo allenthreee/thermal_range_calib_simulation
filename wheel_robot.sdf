@@ -104,7 +104,7 @@
                 <property type="double" key="height">315</property>
                 <property type="double" key="x">50</property>
                 </ignition-gui>
-                <topic>camera_ywy</topic>
+                <topic>car_camera</topic>
                 <topic_picker>false</topic_picker>
             </plugin>
             <!-- <plugin filename="ImageDisplay" name="Image Display 2">
@@ -392,7 +392,7 @@
                     <always_on>1</always_on>
                     <update_rate>30</update_rate>
                     <visualize>true</visualize>
-                    <topic>camera</topic>
+                    <topic>car_camera</topic>
                 </sensor>
             </link>
             
@@ -666,5 +666,22 @@
                 linear: {x: 0.0}, angular: {z: 0.5}
             </output>
         </plugin>
+
+        <include>
+            <pose>30 0 0 0 0 -1.57</pose>
+            <name>school</name>
+            <uri>./simulation_models/school/</uri>
+            <plugin
+                filename="ignition-gazebo-thermal-system"
+                name="ignition::gazebo::systems::Thermal">
+                <temperature>30.0</temperature>
+            </plugin>
+        </include>
+
+        <include>
+            <pose>8 0 0 0 0 1.570796</pose>
+            <name>grey_wall</name>
+            <uri>./simulation_models/grey_wall/</uri>
+        </include>
     </world>
 </sdf>
