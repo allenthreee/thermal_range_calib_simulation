@@ -16,6 +16,18 @@
             name="ignition::gazebo::systems::Thermal">
             <temperature>311.0</temperature>
           </plugin>
+        <plugin
+            filename="libignition-gazebo-diff-drive-system.so"
+            name="ignition::gazebo::systems::DiffDrive">
+            <left_joint>left_wheel_joint</left_joint>
+            <right_joint>right_wheel_joint</right_joint>
+            <wheel_separation>1.2</wheel_separation>
+            <wheel_radius>0.4</wheel_radius>
+            <odom_publish_frequency>1</odom_publish_frequency>
+            <topic>cmd_vel</topic>
+        </plugin>
+        <!-- KeyPublisher plugin-->
+        <plugin filename="KeyPublisher" name="Key Publisher"/>
         <geometry>
           <mesh>
             <uri>./meshes/rescue_randy.dae</uri>
